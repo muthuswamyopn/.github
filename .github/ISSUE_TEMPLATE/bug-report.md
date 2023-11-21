@@ -27,24 +27,14 @@ _List the steps to reproduce the issue._
 
 _Attach or paste appropriate logs and error messages to help us debug better._
 
-## Development Environment and Version
+## Name and Version Information
 
-_Specify your development and version (For example, XCode version 12.0)._
+_Specify the name and version of the following components:
 
-## SDK and Version
-
-_Specify your SDK and version (For example, Omise-iOS version 4.25)._
-
-## Package Manager and Version
-
-_Specify your package manager and version (For example, Swift version 5.0)._
-
-## OS Version
-
-_Specify your OS version (For example, iOS version 17.1.1)._
-
-## Browser and Version (if it is a Web issue)
-
-_Specify your browser and version (For example, Firefox version 119.0.1)._
+* Development Environment (For example, XCode version 12.0).
+* SDK (For example, Omise-iOS version 4.25).
+* Package Manager (For example, Swift version 5.0).
+* Operating System (For example, Swift version 5.0).
+* Browser, if it is a web issue (For example, Swift version 5.0)._
 
 Detailed information helps us troubleshoot and resolve your problems faster.

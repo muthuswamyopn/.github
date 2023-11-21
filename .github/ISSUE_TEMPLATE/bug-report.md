@@ -25,7 +25,7 @@ _List the steps to reproduce the issue_
 
 ## Logs/Error Messages
 
-_Attach or paste appropriate logs and error messages to help us debug better.
+_Attach or paste appropriate logs and error messages to help us debug better_.
 
 ## Development Environment and Version
 

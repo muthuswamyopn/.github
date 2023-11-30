@@ -1,11 +1,11 @@
-name: Bug report
-description: Report a bug
+name: Issue report
+description: Report an issue
 labels: ["bug"]
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this bug report!
+        Thanks for taking the time to fill out this bug report. Detailed information helps us troubleshoot and resolve your problems faster.
   - type: textarea
     id: expectation
     attributes:
@@ -47,9 +47,13 @@ body:
       description: Mention the name and version of the following compobnents.
       placeholder: |
         * Development Environment (for example, XCode version 12.0).
+        
         * SDK (for example, Omise-iOS version 4.25).
+        
         * Package Manager (for example, SwiftPM version 0.6.0).
+        
         * Operating System (for example, iOS version 17.1.1).
+        
         * Browser, if it is a web issue (for example, Firefox version 119.0.1).
     validations:
       required: true

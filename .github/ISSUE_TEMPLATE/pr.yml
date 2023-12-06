@@ -39,7 +39,7 @@ body:
     id: PR impact
     attributes:
       label: Imoact of these changes
-      description: List the steps that must be taken for this PR to work. For example, **Add `yak_key` to environment variables**. Provide screenshots if the changes impact UI.
+      description: List the steps that must be taken for this PR to work. For example, **Add yak_key to environment variables**. Provide screenshots if the changes impact UI.
     validations:
       required: true
     - type: dropdown

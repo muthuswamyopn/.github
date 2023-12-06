@@ -48,7 +48,7 @@ body:
     validations:
       required: true
   - type: textarea
-    id: PR impact
+    id: PRimpact
     attributes:
       label: Imoact of these changes
       description: >-

@@ -41,13 +41,13 @@ body:
       description: Add any logs/error messages to help debug the issue.
     validations:
       required: false
-   - type: textarea
-     id: screenshot
-    attributes:
+  - type: textarea
+    id: screenshot
+   attributes:
       label: Screenshots
       description: Add any screenshots to help debug the issue.
     validations:
-      required: false   
+          required: false
   - type: textarea
     id: versions
     attributes:

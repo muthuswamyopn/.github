@@ -42,13 +42,6 @@ body:
     validations:
       required: false
   - type: textarea
-    id: screenshot
-   attributes:
-      label: Screenshots
-      description: Add any screenshots to help debug the issue.
-    validations:
-          required: false
-  - type: textarea
     id: versions
     attributes:
       label: Name and version information

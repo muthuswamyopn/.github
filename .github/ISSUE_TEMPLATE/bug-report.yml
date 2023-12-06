@@ -42,7 +42,7 @@ body:
     validations:
       required: false
    - type: attachment
-    id: screenshot
+     id: screenshot
     attributes:
       label: Screenshots
       description: Add any screenshots to help debug the issue.

@@ -41,6 +41,13 @@ body:
       description: Add any logs/error messages to help debug the issue.
     validations:
       required: false
+   - type: textarea
+    id: screens
+    attributes:
+      label: screenshots
+      description: Add any logs/error messages to help debug the issue.
+    validations:
+      required: false   
   - type: textarea
     id: versions
     attributes:

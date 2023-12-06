@@ -1,7 +1,7 @@
 name: Issue report
 description: Report an issue
 labels: ["bug"]
-assignees: omise/maintainers
+assignees: @omise/maintainers
 body:
   - type: markdown
     attributes:

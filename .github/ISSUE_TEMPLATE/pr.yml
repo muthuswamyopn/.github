@@ -44,16 +44,16 @@ body:
       label: Manually testing this PR
       description: >-
         Explain clearly how to test this PR. Include screenshots to demonstrate
-        how to test, if changes were made in the UI.
+        how to test if changes were made to the UI.
     validations:
       required: true
   - type: textarea
     id: PRimpact
     attributes:
-      label: Imoact of these changes
+      label: Impact of these changes
       description: >-
-        List the steps that must be taken for this PR to work. For example, Add
-        yak_key to environment variables. Provide screenshots if the changes
+        List the actions that must be performed for this PR to work. For example, **Add
+        `yak_key` to environment variables**. Provide screenshots if the changes
         impact UI.
     validations:
       required: true
@@ -73,6 +73,6 @@ body:
     id: PRothercomments
     attributes:
       label: Any other comments
-      description: Specify any other details you like to add.
+      description: Specify any other details that you like to add.
     validations:
       required: false

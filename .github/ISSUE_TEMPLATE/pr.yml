@@ -1,0 +1,63 @@
+name: Pull Request
+description: Raise a pull request
+labels: ["PR"]
+assignees: omise/maintainers
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this PR.
+  - type: textarea
+    id: PRneed
+    attributes:
+      label: Need for this PR
+      description: Provide clarity on why this PR is needed. What feature does it add or what problem does it solve? Add any related issues as well.
+    validations:
+      required: true
+  - type: textarea
+    id: PRchangedesc
+    attributes:
+      label: Description of changes
+      description: Provide a clear and concise summary of changes made to the code, and the reasoning behind those changes.
+    validations:
+      required: true
+  - type: textarea
+    id: PRQA
+    attributes:
+      label: Synopsis of QA tests
+      description: Specify how you tested the code and what further testing it might need. Be sure to include the details of your test environments, including, for each, the platform version (on which the plugin was run), the Omise plugin version, and the versions of your system software such as PHP or Ruby.
+    validations:
+      required: true
+  - type: textarea
+    id: PRhowtotest
+    attributes:
+      label: Manually testing this PR
+      description: Explain clearly how to test this PR.  Include screenshots to demonstrate how to test, if changes were made in the UI.
+    validations:
+      required: true
+  - type: textarea
+    id: PR impact
+    attributes:
+      label: Imoact of these changes
+      description: List the steps that must be taken for this PR to work. For example, **Add `yak_key` to environment variables**. Provide screenshots if the changes impact UI.
+    validations:
+      required: true
+    - type: dropdown
+    id: PRpriority
+    attributes:
+      label: Priority
+      description: Select the priortiy for this PR.
+      options:
+        - Normal (Default)
+        - High
+        - Immediate
+      default: 0
+    validations:
+      required: true
+  - type: textarea
+    id: PRothercomments
+    attributes:
+      label: Any other comments
+      description: Specify any other details you like to add.
+    validations:
+      required: false  

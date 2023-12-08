@@ -1,17 +1,24 @@
- ## Description
+## Description
 
-<!-- Describe the big picture of your changes here to communicate to the maintainers why we should accept this pull request. If it fixes a bug or resolves a feature request, be sure to link to that issue. -->
+<!-- Describe the big picture of your changes here to communicate to the maintainers why we should accept this pull request -->
 
 *NOTE:*
 
-* *Please make sure PR title is of the format [EN-1234]*, matched with the associated JIRA ticket being worked on.*
+* **Optional**: Update any additional information in the `More Information` section, as appropriate.
 
-* *Make sure to add appropriate category of the PR: `category:minor`, `category:medium` or `category:major`.*
+### More Information  
 
-* *Add the `docs:ok` label. If any docs updated, please provide the link in the below `More Information` section*
+<!-- If there isn't additional information to be added, remove this section -->
 
-* *Optional: Update relevant information in `More Information` section.
+### Documentation (if any)
 
+<!-- Link to the updated Confluence documentation (if any) -->
+
+### Related Links:
+
+<!-- Provide any related PRs, if any -->
+
+- PR (if any): <github-PR-id>
 
 ## Decision(s)
 
@@ -22,40 +29,19 @@
 
 In the context of < use case / user story >, facing < concern > we decided for < option > to achieve < quality / goal >, accepting < downside >.
 
-***NOTE: If change introduces new feature flag, please mention:  ***
+***NOTE: If the change introduces a new feature flag, please mention:  ***
   - ***When / Conditions to remove feature flag***
-  - ***Feature flag removal story ticket [EN-1234]***
   - ***Please add label "FeatureFlag" to feature flag removal story***
  
+## Business Impact (if any)
 
-#### Related Links:
-
-<!-- Provide any related links to this PR either from JIRA, Github PR's, external links(if any) -->
-
-- Task:  <insert-jira-link> gg
-- Portal Ticket: <insert-portal-ticket-if-any>
-- PR (if any): <github-PR-id>
-
-
-## More Information:  
-
-<!-- If none of these apply remove the section -->
-
-
-#### Documentation (if any)
-
-<!-- Link to the updated confluence documentation (if any) -->
+<!-- Describe any business impact. For example, rolling out the changes will involve a short downtime of an hour -->
   
+## Pre or Post deployment steps (if any)
 
-#### Business Impact (if any)
-  
+<!-- Describe any manual steps that need to be done before or after the deployment -->
+ 
+## Rollback Procedure
 
-#### Pre or Post deployment steps (if any)
-
-<!-- Describe any manual pre or post deployment steps -->
-
-  
-#### Rollback Procedure
-
-<!-- Describe Rollback procedure. If none/default, update with `default rollback procedure` -->
+<!-- Describe the Rollback procedure. If none/default, update with `default rollback procedure` -->
 
